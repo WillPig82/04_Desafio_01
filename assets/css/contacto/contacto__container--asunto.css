@@ -1,0 +1,64 @@
+.contacto__container--asunto{
+	display: grid;
+	grid-template-rows: .4fr .95fr .1fr;
+	align-items: flex-start;
+	justify-content: start;
+	grid-column-start: 3;
+	grid-row-start: 6;
+	padding: 0 0 0 5vmin;
+}
+
+.input-label-asunto{
+	grid-row-start: 1;
+	color: var(--morado);
+	transition: all 0.25s;
+	position: relative;
+	top: 5vmin;
+	left: 2vmin;
+	font-size: 2vmin;
+	background: transparent;
+
+}
+
+@media screen and (min-width: 1024px){
+	.input-label-asunto{
+		top: 7vmin
+	}
+}
+
+.input-asunto{
+	
+	height: 10vmin;
+	width: 40vmin;
+	border-radius: 2vmin;
+	border: 1px solid var(--amarillo_1);
+	padding: 0 0 0 2vmin;
+	font-family: 'Raleway';
+	font-size: 3vmin;
+	font-weight: bold;
+	color: var(--morado);
+	background-color: var(--amarillo_2);
+
+}
+
+.input-asunto::placeholder{
+  visibility: hidden;
+  color: #00000000;
+}
+
+.input-asunto:focus {
+  outline: none;
+}
+
+.input-asunto:not(:placeholder-shown) + .input-label-asunto,
+.input-asunto:focus + .input-label-asunto {
+  font-size: 3vmin;
+  top: -1.5vmin;
+  transition: all 0.25s;
+  color: var(--amarillo_2);
+}
+
+
+.input-message-error{
+	visibility: hidden;
+}

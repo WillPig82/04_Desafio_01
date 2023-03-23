@@ -1,0 +1,151 @@
+.experiencia__titulo{
+	margin: 5vmin 20vmin;
+  /*  background-image: url(../../../assets/img/waves/blob_02.svg);
+  background-repeat: no-repeat;
+  background-size: 110vmin;*/
+  
+}
+
+.imgenDeFondo{
+  /*display: flex;
+  position: relative;
+  top: 1vmin;
+  z-index: 3;*/
+  background-image: url(../../../assets/img/waves/blob_02.svg);
+  background-repeat: no-repeat;
+  background-size: 90vmin;
+  
+
+}
+
+@media screen and (min-width: 800px){
+  .imgenDeFondo{
+    background-size: 100vmin;
+  }
+}
+
+#titulo--texto{
+	color: var(--morado);
+	font-size: 10vmin;
+	font: font-family: 'Nothing You Could Do', cursive; font-family: 'Square Peg', cursive;
+}
+
+
+.experiencia__container{
+	max-width: 95vmin;
+	/*max-height: 50.3vmin;*/
+	position: relative;
+	margin: auto;
+
+}
+
+.experiencia__slides{
+	display: none;
+	background: transparent;
+}
+
+.imagenR{
+	width: 95vmin;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--amarillo_2);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: var(--morado);
+}
+
+.texto1 {
+  color: var(--morado);
+  font-size: 15px;
+  padding: 8px 12px;
+  /*position: absolute;
+  bottom: -20px;*/
+  width: 90%;
+  text-align: end;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot_container{
+	text-align: center;
+  margin-top: 20vmin;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.experiencia__boton1, .experiencia__boton2{
+	cursor: pointer;
+	color: var(--amarillo_2);
+	background-color: var(--morado);
+	border: none;
+	border-radius: 1vmin;
+	position: absolute;
+	bottom: -3vmin;
+	box-shadow: -1vmin 1vmin 2vmin 0vmin var(--morado);
+	width: 15vmin;
+	height: 5vmin;
+	margin: 2vmin;
+	font-size: 2vmin;
+}
+
+.experiencia__boton1{
+	position: absolute;
+	bottom: -3vmin;
+}
+
+.experiencia__boton2{
+	position: absolute;
+	bottom: -3vmin;
+	left: 17vmin;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+

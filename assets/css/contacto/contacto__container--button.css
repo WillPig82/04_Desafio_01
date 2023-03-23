@@ -1,0 +1,26 @@
+.contacto__container--button{
+	display: flex;
+	grid-column-start: 2;
+	
+	grid-row-start: 7;
+	justify-content: center;
+	align-items: center;
+
+	
+	
+}
+
+.button{
+	display: block;
+	color: var(--amarillo_2);
+	background-color: var(--morado);
+	width: 20vmin;
+	height: 10vmin;
+	border-radius: 2vmin;
+	border: 0 none;
+	font-size: 3vmin;
+	font-family: 'Raleway';
+	box-shadow: 0vmin 0vmin 7vmin 1vmin var(--amarillo_2);
+	cursor: pointer;
+
+}

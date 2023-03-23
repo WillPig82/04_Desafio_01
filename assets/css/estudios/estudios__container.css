@@ -1,0 +1,17 @@
+.estudios__container{
+	display: grid;
+	grid-template-columns: .4fr repeat(2, 1fr) .4fr;
+	grid-template-rows: .4fr .5fr 1fr .4fr;
+	background-image: url(../../../assets/img/waves/blob_01.svg);
+	background-size: 90vmin;
+	background-repeat: no-repeat;
+	background-position-y: 40vmin;
+	
+
+}
+
+@media screen and (min-width: 800px){
+	.estudios__container{
+		background-position-x: 50vmin;
+		background-size: 110vmin;
+}}

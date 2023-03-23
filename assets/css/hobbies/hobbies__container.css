@@ -1,0 +1,21 @@
+.hobbies__container{
+	display: grid;
+	grid-template-columns: .4fr repeat(2, 1fr) .4fr;
+	grid-template-rows: .2fr repeat(2, .5fr) repeat(2, 1fr) .6fr;
+	background: var(--morado);
+	margin-top: 20vmin;
+}
+
+.hobbies__container--degradadoEntrada{
+	background: var(--degradadoEntrada);
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-column-end: span 5;
+}
+
+.hobbies__container--degradadoSalida{
+	background: var(--degradadoSalida);
+	grid-column-start: 1;
+	grid-row-start: 6;
+	grid-column-end: span 5;	
+}

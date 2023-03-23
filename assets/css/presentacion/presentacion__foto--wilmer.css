@@ -1,0 +1,35 @@
+.presentacion__foto--wilmer{
+	display: flex;
+	height: 50vmin;
+	width: 50vmin;
+	
+	position: absolute;
+	top: 20vmax;
+	left: 5vmin;
+	z-index: 3;
+	
+	opacity: 100%;
+	
+	border-radius: 100%;
+	/*border: 1vmin solid var(--amarillo_2);
+	background: var(--amarillo_1);
+
+	background-image: url("../../img/waves/blob_01.svg");
+	background-size: 70vmin;
+	background-origin: ;*/
+}
+
+
+.presentacion__foto--blob{
+	display: flex;
+	height: 58vmin;
+	width: 61vmin;
+	
+	position: absolute;
+	top: 18vmax;
+	left: 0px;
+	z-index: 2;
+
+	opacity: 100%;
+
+}

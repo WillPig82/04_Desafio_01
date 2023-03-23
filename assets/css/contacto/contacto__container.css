@@ -1,0 +1,21 @@
+.contacto__container{
+	display: grid;
+	grid-template-columns: .2fr 1fr 1fr .2fr;
+	grid-template-rows: .2fr .75fr .4fr repeat(4, .5fr) .2fr;
+	background-color: var(--morado);
+	margin-top: 20vmin;
+}
+
+.contacto__container--degradadoEntrada{
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 1;
+	background: var(--degradadoEntrada);
+}
+
+.contacto__container--degradadoSalida{
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	grid-row-start: 8;
+	background: var(--degradadoSalida);
+}  

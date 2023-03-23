@@ -1,0 +1,44 @@
+.skills__card--html{
+	display: grid;
+	width: 40vmin;
+	grid-template-rows: 3fr 1fr;
+	grid-template-columns: 1fr 30vmin 1fr;
+	grid-row-start: 4;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	/*border: 2vmin solid var(--amarillo_2);*/
+	border-radius: 5vmin;
+	background-color: var(--morado);
+	/*padding: 3vmin 10vmin;*/
+	place-content: center;
+	margin: 1vmin 2vmin;
+	box-shadow: 2vmin 1.5vmin 2vmin 0.1vmin var(--morado)
+
+}
+
+.skills__card--htmlImagen{
+	grid-column-start: 2;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.skills__card--htmlImagen1{
+	height: 18vmin;
+}
+
+
+.skills__card--htmlTexto{
+
+	display: flex;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	font-size: 1fr;
+	color: var(--amarillo_2);
+	justify-content: center;
+	align-items: center;
+
+
+}

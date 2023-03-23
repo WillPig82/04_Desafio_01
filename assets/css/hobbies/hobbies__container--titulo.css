@@ -1,0 +1,13 @@
+.hobbies__container--titulo{
+	grid-row-start: 2;
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+}
+
+#titulohobbies{
+	font: font-family: 'Nothing You Could Do', cursive; font-family: 'Square Peg', cursive;
+	font-size: 10vmin;
+	color: var(--amarillo_1);
+	margin: 1vmin;
+}

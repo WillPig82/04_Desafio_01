@@ -1,0 +1,22 @@
+:root{
+    --morado: #2B2B2B;
+    --amarillo_1: #D9D9D9;
+    --amarillo_2: #F2F2F2;
+    --amarillo_3: #d8bc3a;
+    --amarillo_4: background-color: transparent;
+    --azul: #22B3E3; 
+    --rosa: #734230;
+    --fondo: background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='200' preserveAspectRatio='none' viewBox='0 0 1440 200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1205%26quot%3b)' fill='none'%3e%3crect width='1440' height='200' x='0' y='0' fill='rgba(15%2c 3%2c 6%2c 1)'%3e%3c/rect%3e%3cpath d='M -74.83885786330747%2c91 C -48.64%2c100.4 3.76%2c144.6 56.16114213669253%2c138 C 108.56%2c131.4 134.76%2c64.4 187.16114213669255%2c58 C 239.56%2c51.6 265.76%2c110.6 318.16114213669255%2c106 C 370.56%2c101.4 396.76%2c26.4 449.16114213669255%2c35 C 501.56%2c43.6 527.76%2c145.4 580.1611421366925%2c149 C 632.56%2c152.6 658.76%2c60.6 711.1611421366925%2c53 C 763.56%2c45.4 789.76%2c103.4 842.1611421366925%2c111 C 894.56%2c118.6 920.76%2c79 973.1611421366925%2c91 C 1025.56%2c103 1051.76%2c174 1104.1611421366924%2c171 C 1156.56%2c168 1182.76%2c83.4 1235.1611421366924%2c76 C 1287.56%2c68.6 1313.76%2c135.8 1366.1611421366924%2c134 C 1418.56%2c132.2 1482.39%2c58.6 1497.1611421366924%2c67 C 1511.93%2c75.4 1451.43%2c154.2 1440%2c176' stroke='rgba(255%2c 0%2c 68%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -168.05201227111456%2c74 C -141.85%2c84.8 -89.45%2c126.4 -37.05201227111455%2c128 C 15.35%2c129.6 41.55%2c72.8 93.94798772888545%2c82 C 146.35%2c91.2 172.55%2c181.2 224.94798772888544%2c174 C 277.35%2c166.8 303.55%2c51.4 355.94798772888544%2c46 C 408.35%2c40.6 434.55%2c137.6 486.94798772888544%2c147 C 539.35%2c156.4 565.55%2c94.8 617.9479877288854%2c93 C 670.35%2c91.2 696.55%2c151 748.9479877288854%2c138 C 801.35%2c125 827.55%2c27 879.9479877288854%2c28 C 932.35%2c29 958.55%2c133.6 1010.9479877288854%2c143 C 1063.35%2c152.4 1089.55%2c73 1141.9479877288854%2c75 C 1194.35%2c77 1220.55%2c156.6 1272.9479877288854%2c153 C 1325.35%2c149.4 1370.54%2c63 1403.9479877288854%2c57 C 1437.36%2c51 1432.79%2c109.8 1440%2c123' stroke='rgba(255%2c 0%2c 68%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1205'%3e%3crect width='1440' height='200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    --degradadoEntrada: linear-gradient(var(--amarillo_2), 70%, var(--morado));
+    --degradadoSalida: linear-gradient(var(--morado), 70%, var(--amarillo_2));
+    
+
+
+
+    /*--morado: #0f0306;
+    --amarillo_1: #d8bc3a;
+    --amarillo_2: #FFF34D;
+    --azul: #22B3E3;
+    --rosa: #FF0044;
+    --degradadoHeader: linear-gradient(var(--morado), 80%, var(--amarillo_2)); */
+}

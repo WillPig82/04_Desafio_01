@@ -1,0 +1,67 @@
+.contacto__container--mensaje{
+	display: grid;
+	grid-template-rows: .4fr .95fr;
+	align-items: center;
+	justify-content: start;
+	grid-column-start: 3;
+	/*grid-column-end: span 2;*/
+	grid-row-start: 7;
+	
+}
+
+.input-label-mensaje{
+	grid-row-start: 1;
+	color: var(--morado);
+	transition: all 0.25s;
+	position: relative;
+	top: 5vmin;
+	left: 2vmin;
+	font-size: 2vmin;
+	background: transparent;	
+}
+
+@media screen and (min-width: 1024px){
+	.input-label-mensaje{
+		top: 8vmin
+	}
+}
+
+.textarea-mensaje{
+
+	height: 10vmin;
+	width: 45vmin;
+	border-radius: 2vmin;
+	border: 1px solid var(--amarillo_1);
+	padding:  3vmin 0 0 2vmin;
+	/*padding: 3vmin 2vmin 0 2vmin;*/
+	font-family: 'Raleway';
+	font-size: 2vmin;
+	font-weight: bold;
+	color: var(--morado);
+	background-color: var(--amarillo_2);
+	resize: none;
+}
+
+.textarea-mensaje::placeholder{
+  visibility: hidden;
+  color: #00000000;
+}
+
+.textarea-mensaje:focus {
+  outline: none;
+}
+
+.textarea-mensaje:not(:placeholder-shown) + .input-label-mensaje,
+.textarea-mensaje:focus + .input-label-mensaje {
+  font-size: 3vmin;
+  top: 0vmin;  
+  transition: all 0.25s;
+  color: var(--amarillo_2);
+}
+
+
+.input-message-error{
+	display: none;
+}
+
+

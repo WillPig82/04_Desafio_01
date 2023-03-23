@@ -1,0 +1,55 @@
+.about__container{
+	display: grid;
+	grid-template-columns: .2fr 1.2fr repeat(3, 1fr) .4fr;
+	grid-template-rows: .2fr .3fr .6fr repeat(2, 1fr); /*.2fr;2vmin 15vmin 25vmin repeat(2, 40vmin) 2vmin;*/
+	row-gap: 3vmin;
+}
+
+.about__container--title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	align-items: flex-star;
+
+}
+
+#titleAbout{
+	font-size: 10vmin;
+	/*font-family: 'Nothing You Could Do', cursive; */
+	font-family: 'Square Peg', cursive;
+	font-weight: 100;
+}
+
+.about__container--paragraph1{
+	grid-column-start: 3;
+	grid-column-end: span 3;
+	grid-row-start: 3;
+}
+
+.about__container--paragraph2{
+	grid-column-start: 3;
+	grid-column-end: span 3;
+	grid-row-start: 4;
+}
+
+.about__container--paragraph3{
+	grid-column-start: 3;
+	grid-column-end: span 3;
+	grid-row-start: 5;
+	font-size: 3vmin;
+	line-height: 1.75rem !important;
+}
+
+#paragraphAbout{
+	font-size: 3vmin;
+	line-height: 1.75rem !important;
+	text-align: justify;
+}
+
+.about__container--firma{
+	display: flex;
+	
+}

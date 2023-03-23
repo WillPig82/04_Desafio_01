@@ -1,0 +1,11 @@
+.contacto__container--parrafo1{
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start: 3;
+	padding: 0 0 0 10vmin;
+}
+
+#parrafo1contacto{
+	color: var(--amarillo_2);
+	line-height: 1.75rem;
+}

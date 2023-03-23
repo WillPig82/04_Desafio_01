@@ -1,0 +1,40 @@
+.estudios__card--ucatolica{
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	grid-template-columns: 1fr 30vmin 1fr;
+	grid-row-start: 3;
+	grid-column-start: 2;
+	/*border: .3vmin solid var(--amarillo_2);*/
+	border-radius: 5vmin;
+	background-color: var(--morado);
+	/*padding: 3vmin 10vmin;*/
+	place-content: center;
+	margin: 1vmin 5vmin;
+	box-shadow: 2vmin 1.5vmin 2vmin 0.1vmin var(--morado)
+}
+
+.estudios__card--ucatolicaImagen{
+	grid-column-start: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.estudios__card--ucatolicaImagen1{
+	height: 22vmin;
+	rotate: 0deg;
+}
+
+.estudios__card--ucatolicaTexto{
+	display: flex;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	color: var(--amarillo_2);
+	justify-content: center;
+	align-items: center;
+
+}
+
+#ucatolicaTexto{
+	text-align: center;
+}

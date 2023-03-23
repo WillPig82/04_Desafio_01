@@ -1,0 +1,55 @@
+.skills__container{
+	display: grid;
+	grid-row-gap: 15px;
+	grid-template-columns: .4fr repeat(4, 1fr) .4fr;
+	grid-template-rows: .5fr .6fr .4fr repeat(2, 1fr);/*15vmin 47vmin repeat(2, 30vmin) 2vmin;*/
+}
+
+
+.skills__container--titulo{
+	display: flex;
+	grid-row-start: 1;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	align-items: center;
+	justify-content: center;
+}
+
+#tituloSkills{
+	font: font-family: 'Nothing You Could Do', cursive; font-family: 'Square Peg', cursive;
+	font-size: 10vmin;
+	margin: 1vmin;
+}
+
+.skills__container--parrafo1{
+	display: flex;
+	grid-row-start: 3;
+	grid-column-start: 2;
+	grid-column-end: span 4;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+
+#parrafo1Skills{
+	font-size: 5vmin;
+	/*writing-mode: vertical-rl;
+	text-orientation: sideways-right;*/
+	font: font-family: 'Nothing You Could Do', cursive; font-family: 'Square Peg', cursive;
+}
+
+.skills__container--parrafo2{
+	display: flex;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	grid-column-end: span 3;
+	align-items: flex-start;
+	
+}
+
+#parrafo2Skills{
+	font-size: 3vmin;
+	line-height: 1.75rem;
+	text-align: justify;
+
+}

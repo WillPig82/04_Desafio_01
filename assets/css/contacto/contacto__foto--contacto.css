@@ -1,0 +1,20 @@
+.contacto__foto--contacto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	grid-column-start: 2;
+	grid-row-start: 4;
+	grid-row-end: span 3;
+}
+
+#foto--contacto{
+	width: 30vmin;
+}
+
+
+
+@media screen and (min-width: 1025px){
+	#foto--contacto{
+		width: 60vmin;
+	}
+}

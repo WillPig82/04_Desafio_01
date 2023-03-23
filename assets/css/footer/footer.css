@@ -1,0 +1,46 @@
+.footer{
+	/*display: flex;
+	background-color: var(--morado);
+	height: 15vmin;
+	flex-flow: row;*/
+}
+
+.footer__container{
+	display: grid;
+	grid-template-columns: .2fr 1fr .5fr 1fr .2fr;
+	height: 15vmin;
+	background-color: var(--morado);
+
+}
+
+
+.footer__email{
+	grid-column-start: 2;
+	color: var(--amarillo_2);	
+	font-size: 2vmin;
+	font-weight: lighter;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.willpig__footer{
+	grid-column-start: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer--imagen{
+	width: 12vmin;
+}
+
+.footer__año{
+	grid-column-start: 4;
+	color: var(--amarillo_2);
+	font-size: 2vmin;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}

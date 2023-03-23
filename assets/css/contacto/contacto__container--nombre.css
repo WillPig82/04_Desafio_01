@@ -1,0 +1,71 @@
+.contacto__container--nombre{
+	display: grid;
+	grid-template-rows: .4fr .95fr .1fr;
+	align-items: flex-start;
+	justify-content: start;
+	grid-column-start: 3;
+	grid-row-start: 4;
+	padding: 2vmin 0 0 5vmin;
+} 
+
+.contacto__invalid{
+
+	/*background-color: aqua;*/
+}
+
+.input-label--nombre{
+	grid-row-start: 1;
+	color: var(--morado);
+	transition: all 0.25s;
+	position: relative;
+	top: 5vmin;
+	left: 2vmin;
+	font-size: 2vmin;
+	background: transparent;
+
+}
+
+@media screen and (min-width: 1024px){
+	.input-label--nombre{
+		top: 7vmin
+	}
+}
+
+.input--nombre{
+	
+	height: 10vmin;
+	width: 40vmin;
+	border-radius: 2vmin;
+	border: 1px solid var(--amarillo_1);
+	padding: 0 0 0 2vmin;
+	font-family: 'Raleway';
+	font-size: 2vmin;
+	font-weight: bold;
+	color: var(--morado);
+	background-color: var(--amarillo_2);
+
+}
+
+.input--nombre::placeholder{
+  visibility: hidden;
+  color: #00000000;
+}
+
+.input--nombre:focus {
+  outline: none;
+}
+
+.input--nombre:not(:placeholder-shown) + .input-label--nombre,
+.input--nombre:focus + .input-label--nombre {
+  font-size: 3vmin;
+  
+  top: -1vmin;
+  transition: all 0.25s;
+  color: var(--amarillo_2);
+}
+
+
+.input-message-error{
+	display: none;;
+}
+

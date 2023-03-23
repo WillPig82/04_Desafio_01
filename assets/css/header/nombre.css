@@ -1,0 +1,18 @@
+.nombre--nombre{
+  display: block;
+  color: var(--amarillo_1);
+  position: sticky;
+  margin: 2vmin 0 0 5vmin;
+  font-size: 4vmin;
+  background-color: transparent;
+}
+
+.nombre--email{
+  display: block;
+  color: var(--amarillo_1);
+  position: sticky;
+  margin: .5vmin 0 0 5vmin;
+  font-size: 2.5vmin;
+  background-color: transparent;
+}
+ 
